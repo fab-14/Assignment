@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    margin: 5px 0;
+    padding: 5px 20px;
+    justify-content: space-between;
+  }
+  .navbar {
+    background-color: #eee;
+  }
+  .serchInput {
+    display: flex;
+    align-items: center;
+  }
+  .searchIcon {
+    height: 1rem;
+    width: 2rem;
+    background-color: #eee;
+  }
+  .search {
+    border: none;
+    background-color: #eee;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #777;
+  }
+  .shoppingItem {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .addDlt {
+    display: flex;
+    background-color: #eee;
+    justify-content: space-between;
+    padding: 2px;
+    margin-top: 2rem;
+    width: 10rem;
+  }
+  .minus {
+    padding: 0 3px;
+    background-color: rgb(104, 79, 33);
+    color: #eee;
+  }
+  .plus {
+    background-color: rgb(104, 79, 33);
+    color: #eee;
+    padding: 0 3px;
+  }
+  .itemName {
+    text-transform: capitalize;
+    padding: 5px;
+    color: #777;
+    font-size: 2rem;
+  }
+  .itemPrice {
+    text-transform: capitalize;
+    padding: 5px 2px;
+    color: #777;
+  }
+  .image {
+    width: 15rem;
+    height: 15rem;
+  }
+  .availablity {
+    color: rgb(74, 207, 207);
+    padding: 3px;
+    margin-top: 10px;
+  }
+  .itemColor {
+    text-transform: capitalize;
+    padding: 3px;
+    color: #777;
+  }
+  .btns {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .dlt {
+    padding: 4px 1.5rem;
+    color: rgb(178, 124, 22);
+    border: 2px solid rgb(178, 124, 22);
+    border-radius: 1000px;
+    margin-right: 1rem;
+  }
+  .more {
+    padding: 4px 1.5rem;
+    background-color: rgb(178, 124, 22);
+    border: 2px solid rgb(178, 124, 22);
+    color: #eee;
+    border-radius: 1000px;
+  }
+  footer {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subtotal {
+    margin: 10px 0;
+    color: #777;
+    font-size: 2rem;
+  }
+  .footerBtn {
+    padding: 6px 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(178, 124, 22);
+    border: 2px solid rgb(178, 124, 22);
+    color: #eee;
+    border-radius: 5px;
+  }
